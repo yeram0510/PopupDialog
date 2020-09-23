@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "PopupDialog",
+    platforms: [
+        .iOS(.v10)
+    ],
     products: [
         .library(name: "PopupDialog", targets: ["PopupDialog"])
     ],
